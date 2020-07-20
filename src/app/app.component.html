@@ -13,9 +13,10 @@ First name: <input (keyup)="inputYourname($event)" (keyup.enter)="saveName()" />
 <br />
 Last name: <input #lastname (keyup) = "inputLastname(lastname.value)" (keyup.enter)="saveName()"/>
 {{lastName}}
-<br /><br/>
+
 
 <button (click)= "saveName()">Save</button>
 <br/>
 
 Result =  {{name}}
+
